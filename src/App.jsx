@@ -1,11 +1,12 @@
 import React from "react"
-import Welcome from './Components/presentation/Presentation'
+import Presentation from "./Components/Presentation/Presentation"
 import './styles/styles.css'
+import SideBar from "./Components/SideBar/SideBar"
 
 function App() {
   return (
-    <Welcome/>
-    
+    // <Presentation/>
+    <SideBar/>
   )
 }
 

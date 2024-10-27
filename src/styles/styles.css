@@ -2,12 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.side_options{
+  @apply flex flex-row items-center mt-12 gap-2 text-2xl
+}
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'inter', sans-serif;
+  
 }
 body{
   background-color: #E6E4FF ;
+  flex-direction: row;
 }
