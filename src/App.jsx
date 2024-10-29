@@ -1,12 +1,12 @@
 import React from "react"
 import Presentation from "./Components/Presentation/Presentation"
 import './styles/styles.css'
-import SideBar from "./Components/SideBar/SideBar"
+import Home from "./Components/Home/Home"
 
 function App() {
   return (
     // <Presentation/>
-    <SideBar/>
+    <Home/>
   )
 }
 

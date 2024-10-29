@@ -10,15 +10,15 @@ import settings from "../../assets/icons/Configurações.png"
 
 function SideBar(){
   return(
-    <div className="max-w-72 font-semibold">
-      <h1 className="ml-10 text-primary/base text-3xl  mt-5">Ache Games</h1>
+    <div className="ml-10 mr-40 font-semibold static">
+      <h1 className="ml-10 text-primary/base text-3xl  mt-12">Ache Games</h1>
 
-      <ul className="ml-10">
-        <a href="./"><li className="side_options"><img src={Explorer} alt="Explorar" /><p>Explorar</p></li></a>
-        <a href="./"><li className="side_options"><img src={Feed} alt="Feed" /> Feed</li></a>
-        <a href="./"><li className="side_options"><img src={Chat} alt="Chat" />Chat</li></a>
-        <a href="./"><li className="side_options"><img src={Notification} alt="Notificação" />Notificação</li></a>
-        <a href="./"><li className="side_options"><img src={Profile} alt="Perfil" />Perfil</li></a>
+      <ul className="ml-10 mt-24">
+        <a href="./"><li className="sideOptions"><img src={Explorer} alt="Explorar" /><p>Explorar</p></li></a>
+        <a href="./"><li className="sideOptions"><img src={Feed} alt="Feed" /> Feed</li></a>
+        <a href="./"><li className="sideOptions"><img src={Chat} alt="Chat" />Chat</li></a>
+        <a href="./"><li className="sideOptions"><img src={Notification} alt="Notificação" />Notificação</li></a>
+        <a href="./"><li className="sideOptions"><img src={Profile} alt="Perfil" />Perfil</li></a>
       </ul>
     
       <a href="./"><img className="mt-36 ml-6" src={settings} alt="Configurações" /></a>

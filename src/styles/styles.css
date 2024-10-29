@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 
-.side_options{
-  @apply flex flex-row items-center mt-12 gap-2 text-2xl
+.sideOptions{
+  @apply flex flex-row items-center mt-16 gap-2 text-2xl
 }
+.gamesSideBar{
+  @apply flex items-center gap-1 mt-16 bg-primary/100 rounded-3xl pr-40
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -15,5 +19,4 @@
 }
 body{
   background-color: #E6E4FF ;
-  flex-direction: row;
 }
