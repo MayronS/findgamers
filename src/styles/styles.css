@@ -10,6 +10,10 @@
   @apply flex items-center gap-1 mt-16 bg-primary/100 rounded-3xl pr-40
 }
 
+.gamesHeader{
+  @apply flex items-center gap-1 bg-primary/100 rounded-3xl ml-6 min-w-[21rem]
+}
+
 *{
   margin: 0;
   padding: 0;

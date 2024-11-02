@@ -8,14 +8,10 @@ import Notification from '../../assets/icons/Icon_Notification.png'
 import Profile from '../../assets/icons/Profile_Icon.png'
 import settings from '../../assets/icons/Configurações.png'
 
-function SideBar() {
+function SideBarFeed() {
   return (
     <div className="ml-10 mr-40 font-semibold static">
-      <h1 className="ml-10 text-primary/base text-3xl mt-6 desktop:mt-12">
-        Ache Games
-      </h1>
-
-      <ul className="ml-10 mt-12 desktop:mt-24">
+      <ul className="ml-10 mt-10 desktop:mt-16">
         <a href="./">
           <li className="sideOptions">
             <img src={Explorer} alt="Explorar" />
@@ -59,4 +55,4 @@ function SideBar() {
   )
 }
 
-export default SideBar
+export default SideBarFeed

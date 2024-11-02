@@ -9,7 +9,7 @@ import Next from '../../assets/icons/Next.png'
 
 function Home() {
   return (
-    <div className="flex">
+    <div className="flex w-auto">
       <SideBar />
       <div className="flex mt-8 mx-auto my-0 w-[30rem] h-[41rem] desktop:mt-10 desktop:w-[35rem] desktop:h-[54.3rem]">
         <div className=" flex justify-center">
