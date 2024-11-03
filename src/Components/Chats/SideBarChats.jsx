@@ -8,49 +8,41 @@ import Notification from '../../assets/icons/Icon_Notification.png'
 import Profile from '../../assets/icons/Profile_Icon.png'
 import settings from '../../assets/icons/Configurações.png'
 
-function SideBar() {
+function SideBarChats() {
   return (
-    <div className="ml-10 mr-40 font-semibold static">
-      <h1 className="ml-10 text-primary/base text-3xl mt-6 desktop:mt-12">
-        Ache Games
-      </h1>
-
-      <ul className="ml-10 mt-12 desktop:mt-24">
-        <a href="./">
+    <div className="mr-40 mt-20 w-36 font-semibold static">
+      <ul className="ml-10 mt-10 desktop:mt-16">
+        <Link to="/">
           <li className="sideOptions">
             <img src={Explorer} alt="Explorar" />
-            <p>Explorar</p>
           </li>
-        </a>
+        </Link>
         <Link to="/feed">
           <li className="sideOptions">
-            <img src={Feed_img} alt="Feed" /> Feed
+            <img src={Feed_img} alt="Feed" />
           </li>
         </Link>
 
         <Link to="/chats">
           <li className="sideOptions">
             <img src={Chat} alt="Chat" />
-            Chat
           </li>
         </Link>
         <a href="./">
           <li className="sideOptions">
             <img src={Notification} alt="Notificação" />
-            Notificação
           </li>
         </a>
         <a href="./">
           <li className="sideOptions">
             <img src={Profile} alt="Perfil" />
-            Perfil
           </li>
         </a>
       </ul>
 
       <a href="./">
         <img
-          className="mt-16 ml-6 desktop:mt-36"
+          className="mt-16 ml-6 desktop:mt-60"
           src={settings}
           alt="Configurações"
         />
@@ -59,4 +51,4 @@ function SideBar() {
   )
 }
 
-export default SideBar
+export default SideBarChats

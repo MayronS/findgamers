@@ -12,24 +12,24 @@ function SideBarFeed() {
   return (
     <div className="ml-10 mr-40 font-semibold static">
       <ul className="ml-10 mt-10 desktop:mt-16">
-        <a href="./">
+        <Link to="/">
           <li className="sideOptions">
             <img src={Explorer} alt="Explorar" />
             <p>Explorar</p>
           </li>
-        </a>
+        </Link>
         <Link to="/feed">
           <li className="sideOptions">
             <img src={Feed_img} alt="Feed" /> Feed
           </li>
         </Link>
 
-        <a href="./">
+        <Link to="/chats">
           <li className="sideOptions">
             <img src={Chat} alt="Chat" />
             Chat
           </li>
-        </a>
+        </Link>
         <a href="./">
           <li className="sideOptions">
             <img src={Notification} alt="Notificação" />
