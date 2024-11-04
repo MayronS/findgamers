@@ -11,9 +11,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/findgamers" element={<Home />} />
-        <Route path="/feed" element={<Feed />} />
-        <Route path="/chats" element={<Chats />} />
-        <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/findgamers/feed" element={<Feed />} />
+        <Route path="/findgamers/chats" element={<Chats />} />
+        <Route path="/findgamers/profile" element={<ProfilePage />} />
       </Routes>
     </BrowserRouter>
     // <Presentation/>
