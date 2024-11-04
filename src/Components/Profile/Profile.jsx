@@ -1,16 +1,6 @@
-// import React from 'react'
-import SideBar from '../SideBar/SideBar'
-// import RightSideBar from './RightSideBar'
-
-// import Profile from '../../assets/images/Profile_Jose.png'
-// import Icon_Yes from '../../assets/icons/Yes.png'
-// import Icon_Not from '../../assets/icons/Not.png'
-// import Next from '../../assets/icons/Next.png'
-
 import React from 'react';
-import { FaGamepad, FaRegBell, FaUser, FaComments, FaCog } from 'react-icons/fa';
+import SideBar from '../SideBar/SideBar'
 import { MdExitToApp, MdGamepad, MdModeEdit, MdSearch, MdVideogameAsset } from "react-icons/md";
-import { RiEdit2Fill } from 'react-icons/ri';
 
 import User1 from '../../assets/users/user1.png'
 import LOLIcon from '../../assets/icons_games/LOL.png'
