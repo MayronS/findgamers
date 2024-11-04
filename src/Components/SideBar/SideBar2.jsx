@@ -11,7 +11,7 @@ import {
 import { useSidebar } from './SideBarContext'
 import Notifications from '../Notifications/Notifications'
 
-function SideBar({ collapsed = false, ronaldo }) {
+function SideBarFeed({ collapsed = false, ronaldo }) {
   const {
     isCollapsed,
     toggleSidebar,
@@ -41,46 +41,37 @@ function SideBar({ collapsed = false, ronaldo }) {
           {isCollapsed ? <FaChevronRight /> : <FaChevronLeft />}
         </button>
 
-        {!isCollapsed && (
-          <h1
-            id="Ache_games"
-            className="text-nowrap text-primary/base text-3xl pt-2 desktop:mt-12"
-          >
-            Ache Games
-          </h1>
-        )}
-
         <ul
-          className={` mt-12 desktop:mt-24 ${
+          className={` mt-0 desktop:mt-10 ${
             isCollapsed ? 'space-y-4' : ''
           } text-gray-600`}
         >
           <a href="./">
-            <li className="sideOptions flex items-center gap-2">
+            <li className="sideOptionsFeed flex items-center gap-2">
               <MdVideogameAsset className={iconClass} />
               {!isCollapsed && <p>Explorar</p>}
             </li>
           </a>
           <Link to="/feed">
-            <li className="sideOptions flex items-center gap-2">
+            <li className="sideOptionsFeed flex items-center gap-2">
               <MdDehaze className={iconClass} />
               {!isCollapsed && <p>Feed</p>}
             </li>
           </Link>
           <Link to="/chats">
-            <li className="sideOptions flex items-center gap-2">
+            <li className="sideOptionsFeed flex items-center gap-2">
               <MdChatBubble className={iconClass} />
               {!isCollapsed && <p>Chat</p>}
             </li>
           </Link>
           <button onClick={activateNotifications}>
-            <li className="sideOptions flex items-center gap-2">
+            <li className="sideOptionsFeed flex items-center gap-2">
               <MdNotifications className={iconClass} />
               {!isCollapsed && <p>Notificação</p>}
             </li>
           </button>
           <Link to="/profile">
-            <li className="sideOptions flex items-center gap-2">
+            <li className="sideOptionsFeed flex items-center gap-2">
               <MdPerson className={iconClass} />
               {!isCollapsed && <p>Perfil</p>}
             </li>
@@ -88,7 +79,7 @@ function SideBar({ collapsed = false, ronaldo }) {
         </ul>
 
         <a className="flex w-full h-full" href="./">
-          <MdSettings className="mt-auto mb-3 text-gray-600 w-10 h-10" />
+          <MdSettings className="mt-auto mb-3 text-gray-600 w-10 h-10 desktop:mt-40" />
         </a>
       </div>
       <div className="h-full relative">
@@ -98,4 +89,4 @@ function SideBar({ collapsed = false, ronaldo }) {
   )
 }
 
-export default SideBar
+export default SideBarFeed

@@ -9,7 +9,7 @@ import Valorant from '../../assets/icons_games/Valorant.png'
 function Header() {
   return (
     <header>
-      <ul className="flex overflow-y-auto max-w-[120rem] mt-16 text-primary/base desktop:mt-10">
+      <ul className="flex overflow-y-auto scrollbar scrollbar-thumb-scroll scrollbar-track-slate-100 max-w-[120rem] mt-10 text-primary/base">
         <a className="gamesHeader" href="./">
           <img src={LOL} alt="" />
           <div className="">

@@ -12,9 +12,10 @@ module.exports = {
         'primary/200': '#B2A9FF',
         'primary/100': '#DAD7FF',
         'primary/base': '#4801F9',
-        'color/chat': '#D9D9D9'
+        'color/chat': '#D9D9D9',
+        scroll: '#DAD7FF'
       }
     }
   },
-  plugins: []
+  plugins: [require('tailwind-scrollbar')]
 }

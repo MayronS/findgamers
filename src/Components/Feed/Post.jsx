@@ -5,8 +5,8 @@ import post1 from '../../assets/images/post1.png'
 
 function Post() {
   return (
-    <div className="w-[90rem] flex justify-center overflow-auto">
-      <div className="w-[50rem] bg-bg-post mt-10">
+    <div className=" flex bg-local justify-center overflow-auto scrollbar scrollbar-thumb-scroll scrollbar-track-slate-100 relative max-h-[37rem] w-[110rem] desktop:max-h-[50rem]">
+      <div className="w-[40rem] bg-bg-post min-h-max mt-6 mb-6 pb-2 pt-2 desktop:w-[50rem] ">
         <div className="ml-5 mr-5">
           <div className="gap-4 flex items-center ">
             <img src={LOL} alt="LOL" />

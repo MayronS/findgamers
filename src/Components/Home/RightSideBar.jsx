@@ -5,6 +5,8 @@ import Fortnite from '../../assets/icons_games/Fortnite.png'
 import TF2 from '../../assets/icons_games/TF2.png'
 import Valorant from '../../assets/icons_games/Valorant.png'
 
+import SideBarContext from '../SideBar/SideBarContext'
+
 function RightSideBar() {
   return (
     <div>

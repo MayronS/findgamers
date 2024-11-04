@@ -27,7 +27,7 @@ function Users() {
         </div>
         <img className="ml-4" src={Groups} alt="Criar grupos" />
       </div>
-      <div className="max-h-[42rem] overflow-auto">
+      <div className="max-h-[29.3rem] overflow-auto desktop:max-h-[43rem] scrollbar scrollbar-thumb-scroll scrollbar-track-slate-100">
         <User profilePhoto={user1} />
         <User profilePhoto={user2} />
         <User profilePhoto={user3} />

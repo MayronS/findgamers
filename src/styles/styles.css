@@ -9,6 +9,9 @@
 .sideOptions{
   @apply flex flex-row items-center mt-14 gap-2 text-2xl desktop:mt-16
 }
+.sideOptionsFeed{
+  @apply flex flex-row items-center mt-10 gap-2 text-2xl desktop:mt-16
+}
 .gamesSideBar{
   @apply flex items-center gap-1 mt-16 bg-primary/100 rounded-3xl pr-40
 }
