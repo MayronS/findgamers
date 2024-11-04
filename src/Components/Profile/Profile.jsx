@@ -4,6 +4,7 @@ import { MdExitToApp, MdGamepad, MdModeEdit, MdSearch, MdVideogameAsset } from "
 
 import User1 from '../../assets/users/user1.png'
 import LOLIcon from '../../assets/icons_games/LOL.png'
+import { SidebarProvider } from '../SideBar/SideBarContext';
 
 function LeftBar() {
     return (
@@ -50,7 +51,9 @@ function UserProfile() {
     return (
         <div className='w-full h-full'>
             <div className='flex w-auto h-full'>
-                <SideBar></SideBar>
+                <SidebarProvider>
+                    <SideBar />
+                </SidebarProvider>
                 <div className="flex-1 w-full h-full ">
                     <UserPicture />
 
