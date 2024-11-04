@@ -8,7 +8,8 @@ module.exports = {
       },
       colors: {
         'bg-post': '#DAD7FF',
-        'primary/200': '#8B7AFF',
+        'primary/500': '#4100DC',
+        'primary/200': '#B2A9FF',
         'primary/100': '#DAD7FF',
         'primary/base': '#4801F9',
         'color/chat': '#D9D9D9'

@@ -10,7 +10,7 @@ import settings from '../../assets/icons/Configurações.png'
 
 function SideBar() {
   return (
-    <div className="ml-10 mr-40 font-semibold static">
+    <div className="ml-10 mr-10 font-semibold static">
       <h1 className="ml-10 text-primary/base text-3xl mt-6 desktop:mt-12">
         Ache Games
       </h1>
@@ -40,12 +40,12 @@ function SideBar() {
             Notificação
           </li>
         </a>
-        <a href="./">
+        <Link to="/profile">
           <li className="sideOptions">
             <img src={Profile} alt="Perfil" />
             Perfil
           </li>
-        </a>
+        </Link>
       </ul>
 
       <a href="./">
