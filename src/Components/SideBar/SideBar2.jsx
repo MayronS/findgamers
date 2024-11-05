@@ -46,19 +46,19 @@ function SideBarFeed({ collapsed = false, ronaldo }) {
             isCollapsed ? 'space-y-4' : ''
           } text-gray-600`}
         >
-          <a href="./">
+          <a href="./findgamers">
             <li className="sideOptionsFeed flex items-center gap-2">
               <MdVideogameAsset className={iconClass} />
               {!isCollapsed && <p>Explorar</p>}
             </li>
           </a>
-          <Link to="/feed">
+          <Link to="/findgamers/feed">
             <li className="sideOptionsFeed flex items-center gap-2">
               <MdDehaze className={iconClass} />
               {!isCollapsed && <p>Feed</p>}
             </li>
           </Link>
-          <Link to="/chats">
+          <Link to="/findgamers/chats">
             <li className="sideOptionsFeed flex items-center gap-2">
               <MdChatBubble className={iconClass} />
               {!isCollapsed && <p>Chat</p>}
@@ -70,7 +70,7 @@ function SideBarFeed({ collapsed = false, ronaldo }) {
               {!isCollapsed && <p>Notificação</p>}
             </li>
           </button>
-          <Link to="/profile">
+          <Link to="/findgamers/profile">
             <li className="sideOptionsFeed flex items-center gap-2">
               <MdPerson className={iconClass} />
               {!isCollapsed && <p>Perfil</p>}
