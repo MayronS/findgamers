@@ -49,8 +49,3 @@ src/
 - [ ] Chat em tempo real
 - [ ] Filtro de jogadores por jogo, rank e horário
 - [ ] Alternar tema claro/escuro
-
-## 👤 Autor
-
-**Mayron Silva Vieira**
-[LinkedIn](https://linkedin.com/in/mayronsv) · [GitHub](https://github.com/MayronS)
